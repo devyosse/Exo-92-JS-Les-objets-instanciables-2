@@ -5,7 +5,7 @@ let Personne = function(nom, prenom, age, sexe) {
     this.sexe = sexe;
 
     this.getPersonne = function (){
-        return "Ma personne s'appelle " + this.nom + this.prenom + " elle a " + this.age + " et est de sexe " + this.sexe;
+        return "Ma personne s'appelle " + this.nom + this.prenom + " il/elle a " + this.age + " et est de sexe " + this.sexe;
     }
 }
 // creation personnnages
